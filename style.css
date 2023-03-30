@@ -11,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4A98F7;
+  background: #035465;
 }
 .container{
   display: flex;
@@ -50,7 +50,7 @@ section{
   padding-left: 10px;
 }
 .option:is(:hover, .active) :where(span, label){
-  color: #4A98F7;
+  color: #035465;
 }
 .option #fill-color{
   cursor: pointer;
@@ -58,7 +58,7 @@ section{
   width: 14px;
 }
 #fill-color:checked ~ label{
-  color: #4A98F7;
+  color: #035465;
 }
 .option #size-slider{
   width: 100%;
@@ -90,7 +90,7 @@ section{
   background-color: #6DD400;
 }
 .colors .option:nth-child(5){
-  background-color: #4A98F7;
+  background-color: #035465;
 }
 .colors .option.selected::before{
   position: absolute;
@@ -133,8 +133,8 @@ section{
   background: #6C757D;
 }
 .buttons .save-img{
-  background: #4A98F7;
-  border: 1px solid #4A98F7;
+  background: #035465;
+  border: 1px solid #035465;
 }
 .drawing-board{
   flex: 1;
